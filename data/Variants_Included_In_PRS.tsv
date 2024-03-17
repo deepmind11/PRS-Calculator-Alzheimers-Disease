@@ -1,0 +1,41 @@
+RS	Gene	Chr	BP	REF	ALT	Freq. Ref. GR@ACE	MAF	Genotyped	Call Rate	Rsq	Beta HRC	Weight from	Culprit variant identified 	Note
+rs4844610	CR1	1	207802552	A	C	0.166	0.165	Genotyped	0.9999	NA	0.147	Kunkle et al. 2019	CNV(linked to hit)	
+rs876461	PRKD3 	2	37515958	G	A	0.857	0.145	Imputed	NA	0.993	-0.074	Kunkle et al. 2019	no	
+rs6733839	BIN1	2	127892810	C	T	0.644	0.359	Genotyped	0.9997	NA	-0.169	Kunkle et al. 2019	no	
+rs10933431	INPP5D	2	233981912	G	C	0.238	0.238	Genotyped	0.9994	NA	-0.100	Kunkle et al. 2019	no	
+rs4351014	HS3ST1	4	11027619	T	C	0.316	0.317	Imputed	NA	0.994	0.068	Kunkle et al. 2019	no	
+rs9275152	HLA-DRB1	6	32652196	T	C	0.932	0.070	Imputed	NA	0.907	0.132	Kunkle et al. 2019	no	
+rs143332484	TREM2	6	41129207	C	T	0.984	0.015	Imputed	NA	0.802	-0.495	Sims et al. 2017	Missense Arg62His	
+rs75932628	TREM2	6	41129252	C	T	0.997	0.003	Imputed	NA	0.876	-0.699	Kunkle et al. 2019	Missense Arg447His	
+rs9381040	TREML2	6	41154650	C	T	0.719	0.285	Imputed	NA	0.998	0.059	Kunkle et al. 2019	no	
+rs9381564	CD2AP	6	47443806	A	G	0.722	0.274	Imputed	NA	0.997	-0.083	Kunkle et al. 2019	no	
+rs1859788	PILRA	7	99971834	A	G	0.277	0.278	Imputed	NA	0.987	-0.065	Kunkle et al. 2019	Missense Gly78Arg	
+rs56402156	EPHA1	7	143103481	G	A	0.809	0.189	Genotyped	1.0000	NA	0.102	Kunkle et al. 2019	no	
+rs73223431	PTK2B	8	27219987	C	T	0.616	0.383	Genotyped	0.9999	NA	-0.094	Kunkle et al. 2019	no	
+rs9331896	CLU	8	27467686	C	T	0.365	0.365	Genotyped	1.0000	NA	-0.127	Kunkle et al. 2019	no	
+rs34674752	SHARPIN	8	145154222	G	A	0.948	0.051	Genotyped	0.9999	NA	-0.107	Kunkle et al. 2019	Missense Pro294Ser	
+rs34173062	SHARPIN	8	145158607	G	A	0.915	0.084	Imputed	NA	0.691	-0.090	Kunkle et al. 2019	Missense Ser17Phe	
+rs7920721	ECHDC3	10	11720308	A	G	0.604	0.393	Genotyped	0.9995	NA	-0.078	Kunkle et al. 2019	no	
+rs3740688	SPI1	11	47380340	G	T	0.457	0.458	Imputed	NA	0.984	-0.094	Kunkle et al. 2019	no	
+rs1582763	MS4A2	11	60021948	G	A	0.621	0.378	Genotyped	0.9999	NA	0.123	Kunkle et al. 2019	no	
+rs3851179	PICALM	11	85868640	T	C	0.332	0.332	Genotyped	0.9999	NA	-0.120	Kunkle et al. 2019	no	
+rs11218343	SORL1	11	121435587	T	C	0.967	0.033	Imputed	NA	0.981	0.205	Kunkle et al. 2019	no	
+rs17125924	FERMT2	14	53391680	A	G	0.937	0.064	Genotyped	1.0000	NA	-0.122	Kunkle et al. 2019	no	
+rs11623019	RIN3/SLC2A4	14	92936971	T	C	0.267	0.268	Imputed	NA	0.995	0.091	Kunkle et al. 2019	no	
+rs593742	ADAM10	15	59045774	A	G	0.772	0.231	Genotyped	0.9996	NA	0.065	Kunkle et al. 2019	no	
+rs117618017	APH1B	15	63569902	C	T	0.835	0.164	Genotyped	0.9998	NA	-0.094	Kunkle et al. 2019	Missense Thr27Ile	
+rs7185636	IQCK	16	19808163	T	C	0.798	0.204	Imputed	NA	0.976	0.079	Kunkle et al. 2019	no	
+rs4985556	IL34	16	70694000	C	A	0.889	0.109	Genotyped	0.9995	NA	-0.087	Kunkle et al. 2019	Stop Gained Tyr213Ter	
+rs12444183	PLCG2	16	81773209	A	G	0.407	0.406	Imputed	NA	0.955	-0.051	Kunkle et al. 2019	no	
+rs3935877	PLCG2	16	81900853	T	C	0.132	0.133	Imputed	NA	0.944	0.062	Kunkle et al. 2019	no	
+rs72824905	PLCG2	16	81942028	C	G	0.995	0.006	Imputed	NA	0.857	0.270	Kunkle et al. 2019	Missense Pro522Leu	
+rs72835061	CHRNE	17	4805437	C	A	0.915	0.084	Imputed	NA	0.997	-0.090	Kunkle et al. 2019	no	
+rs75511804	SCIMP	17	5138304	C	T	0.882	0.117	Imputed	NA	0.998	-0.085	Kunkle et al. 2019	no	
+rs2732703	KANSL1	17	44353222	T	G	0.764	0.232	Imputed	NA	0.765	0.099	Jun et al. 2015	no	weight for APOEe4 carriers
+rs2732703	KANSL1	17	44353222	T	G	0.764	0.232	Imputed	NA	0.765	0.315	Jun et al. 2015	no	weight for APOEe4 non-carriers
+rs616338	ABI3	17	47297297	T	C	0.008	0.008	Genotyped	0.9999	NA	0.362	Sims et al. 2017	Missense Ser209Phe	
+rs4311	ACE	17	61560763	T	C	0.531	0.473	Imputed	NA	0.986	-0.048	Kunkle et al. 2019	Intornic ALU insertion	
+rs3752231	ABCA7	19	1043638	C	T	0.740	0.260	Genotyped	0.9999	NA	-0.100	Kunkle et al. 2019	Intronic VNTR	
+rs12459419	CD33	19	51728477	C	T	0.710	0.290	Imputed	NA	0.998	0.080	Kunkle et al. 2019	Exon 2 splicing modulator	
+rs6024870	CASS4	20	54997568	G	A	0.897	0.104	Imputed	NA	0.982	0.128	Kunkle et al. 2019	no	
+rs2154481	APP	21	27473875	C	T	0.483	0.484	Imputed	NA	0.955	-0.051	Kunkle et al. 2019	no	

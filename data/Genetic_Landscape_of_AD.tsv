@@ -1,0 +1,42 @@
+RS	Chr	BP	Minor/Other Allele	MAF	Effect	Top SNP found in	Locus priority	Region included in validation	Closet Gene	Culprit variant identified 	Culprit Gene	Other Mutations observed	Certainty culprit gene
+rs4844610	1	207802552	A/C	0.166	Risk	Kunkle et al. 2019	Lambert et al. 2009	No	CR1	CNV(linked to hit)	CR1	no	clear
+rs876461	2	37515958	A/G	0.143	Risk	Present work	Present work	Yes	PRKD3/NDUFAF7	no	PRKD3/NDUFAF7	no	possible
+rs6733839	2	127892810	T/C	0.356	Risk	Lambert et al. 2013	Seshadri et al. 2010	No	BIN1	no	BIN1	missense variant	clear
+rs10933431	2	233981912	G/C	0.238	Protective	Kunkle et al. 2019	Lambert et al. 2013	No	INPP5D	no	INPP5D	no	likely
+rs4351014	4	11027619	T/C	0.316	Risk	Present work	Desikan al. 2015	Yes	HS3ST1	no	HS3ST1	no	possible
+rs9275152	6	32652196	C/T	0.068	Protective	Present work	Lambert et al. 2013	No	HLA	no	HLA-DRB1	no	unclear
+rs143332484	6	41129207	T/C	0.016	Risk	Sims et al. 2017	Sims et al. 2017	No	TREM2	Missense Arg62His	TREM2 	missense, nonsense variants	clear
+rs75932628	6	41129252	T/C	0.003	Risk	Jonson et al. 2013	Jonson et al. 2013	No	TREM2	Missense Arg47His	TREM2 	missense, nonsense variants	clear
+rs9381040	6	41154650	T/C	0.281	Protective	Present work	Benítez et al. 2014	No	TREML2	no	TREML2	no	likely
+rs9381564	6	47443806	G/A	0.278	Risk	Present work	Lambert et al. 2013	No	CD2AP	no	CD2AP	missense variant	likely
+rs1859788	7	99971834	A/G	0.277	Protective	Rathore et al. 2018	Hollinworth et al. 2011	No	PILRA	Missense Gly78Arg	PILRA	no	clear
+rs56402156	7	143103481	A/G	0.191	Protective	Marioni et al. 2018	Lambert et al. 2013	No	EPHA1	no	EPHA1	missense variant	likely
+rs73223431	8	27219987	T/C	0.384	Risk	Kunkle et al. 2019	Lambert et al. 2013	No	PTK2B	no	PTK2B	no	likely
+rs9331896	8	27467686	C/T	0.365	Protective	Lambert et al. 2013	Harold et al. 2009	No	CLU	no	CLU	no	likely
+rs34674752	8	145154222	A/G	0.052	Risk	Present work	Lancour et al. 2018	Yes	SHARPIN	Missense Pro294Ser	SHARPIN	missense variant	clear
+rs34173062	8	145158607	A/G	0.085	Risk	Present work	Lancour et al. 2018	Yes	SHARPIN	Missense Ser17Phe	SHARPIN	missense variant	clear
+rs7920721	10	11720308	G/A	0.396	Risk	Desikan et al. 2015	Desikan et al. 2015	No	ECHDC3	no	ECHDC3	no	unclear
+rs3740688	11	47380340	G/T	0.457	Protective	Marioni et al. 2018	Huang et al. 2015	No	SPI1	no	SPI1	no	clear
+rs1582763	11	60021948	A/G	0.379	Protective	Jun et al. 2015	Hollinworth et al. 2011	No	MS4A4A	no	MS4A4A	no	likely
+rs3851179	11	85868640	T/C	0.332	Protective	Harold et al. 2009	Harold et al. 2009	No	PICALM	no	PICALM	no	clear
+rs11218343	11	121435587	C/T	0.033	Protective	Miyashita et al. 2013	Rogaeva et al. 2007	No	SORL1	no	SORL1	missense variant (incomplete penetrance), LOF variants	clear
+rs17125924	14	53391680	G/A	0.063	Risk	Marioni et al. 2018	Lambert et al. 2013	No	FERMT2	no	FERMT2	no	likely
+rs11623019	14	92936971	T/C	0.267	Risk	Present work	Lambert et al. 2013	No	RIN3/SLC24A4	no	RIN3/SLC24A4	no	unclear
+rs593742	15	59045774	G/A	0.228	Protective	Marioni et al. 2018	Kim et al. 2009	No	ADAM10	no	ADAM10	missense variant (incomplete penetrance)	likely
+rs117618017	15	63569902	T/C	0.165	Risk	Jansen al. 2019	Poli et al. 2008	No	APH1B	Missense Thr27Ile	APH1B	no	likely
+rs7185636	16	19808163	C/T	0.202	Protective	Kunkle et al. 2019	Kunkle et al. 2019	No	IQCK	no	IQCK, KNOP1	yes	likely
+rs4985556	16	70694000	A/C	0.111	Risk	Marioni et al. 2018	Marioni et al. 2018	Yes	IL34	Stop Gained Tyr213Ter	IL34	no	clear
+rs12444183	16	81773209	A/G	0.407	Protective	Marioni et al. 2018	Sims et al. 2017	Yes	PLCG2	no	PLCG2	rare variant Pro522Leu	likely
+rs3935877	16	81900853	T/C	0.132	Risk	Present work	Sims et al. 2017	Yes	PLCG2	no	PLCG2	rare variant Pro522Leu	likely
+rs72824905	16	81942028	G/C	0.005	Protective	Sims et al. 2017	Sims et al. 2017	Yes	PLCG2	Missense Pro522Leu	PLCG2	no	clear
+rs75511804	17	5138304	T/C	0.118	Risk	Present work	Jansen al. 2019	No	SCIMP	no	SCIMP	no	possible
+rs2732703	17	46290850 	G/T	0.236	Protective	Present work	Jun et al. 2015	No	MAPT/KANSL1	no	KANSL1, MAPT	no	likely
+rs4311	17	61560763	C/T	0.469	Risk	Marioni et al. 2018	Alvarez et al. 1999	No	ACE	Intornic ALU insertion	ACE	no	clear
+rs72835061	17	4805437	A/C	0.085	Risk	Present work	Present work	Yes	CHRNE/C17orf107	no	CHRNE	no	possible
+rs616338	17	47297297	T/C	0.008	Risk	Sims et al. 2017	Sims et al. 2017	no	ABI3	Missense Ser209Phe	ABI3	no	clear
+rs3752231	19	1043638	T/C	0.260	Risk	Marioni et al. 2018	Hollinworth et al. 2011	No	ABCA7	Intronic VNTR	ABCA7	rare variants (incomplete penetrance),  LOF variants	likely
+rs429358	19	45411941	C/T	0.168	Risk	Strittmatter et al. 1993	Strittmatter et al. 1993	No	APOE4	Arg112-Arg158 diplotype	APOE	no	clear
+rs7412	19	45412079	T/C	0.049	Protective	Chartier-Harlin et al. 1994	Chartier-Harlin et al. 1994	No	APOE2	Cys112-Cys158 diplotype	APOE	no	clear
+rs12459419	19	51728477	T/C	0.290	Protective	Malik et el. 2013	Bertram et al. 2008	No	CD33	Exon 2 splicing modulator	CD33	no	clear
+rs6024870	20	54997568	A/G	0.103	Protective	Present work	Lambert et al. 2013	No	CASS4	no	CASS4/CSFT1	no	unclear
+rs2154481	21	27473875	C/T	0.483	Protective	Present work	Goate et al. 1991	Yes	APP	no	APP	EOAD full penetrance mutations	likely
