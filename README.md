@@ -16,6 +16,6 @@ This should be save under the data directory as "./data/Sumstats_SPIGAPUK2_20190
 
 The script prints out the odds of AD for a given patient based on the presence of following SNPs.
 
-![SNPs for PRS Calculation](https://drive.google.com/file/d/12ACZQvviiorVP7xNzJAUQVlZLtNjWgGL/view?usp=share_link)
+![SNPs for PRS Calculation](https://github.com/deepmind11/PRS-Calculator-Alzheimers-Disease/blob/main/images/PRS_AD_GENES.png?raw=true)
 
 In addition to these SNPs for APOE2 and APOE4 were used in the calculation.
