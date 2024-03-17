@@ -1,21 +1,26 @@
+# Checking pacman installation
+if (!require(pacman)) {
+  install.packages("pacman")
+  library(pacman)
+}
 
 # Loading the relevant packages
 pacman::p_load(pacman,dplyr,stringr, vcfR)
 
+### YOUR VCF FILE SPECIFY THE PATH HERE!!!
+vcf <- read.vcfR("<REPLACE PATH TO YOUR VCF FILE HERE>")
 
 # Loading the data --------------------------------------------------------
-Genetic_Landscape_of_AD <- read.delim("~/Documents/Projects/PRScalculator/data/Genetic_Landscape_of_AD.tsv")
+Genetic_Landscape_of_AD <- read.delim("./data/Genetic_Landscape_of_AD.tsv")
 View(Genetic_Landscape_of_AD)
 
-Variants_Included_In_PRS <- read.delim("~/Documents/Projects/PRScalculator/data/Variants_Included_In_PRS.tsv")
+Variants_Included_In_PRS <- read.delim("./data/Variants_Included_In_PRS.tsv")
 View(Variants_Included_In_PRS)
 
-Meta_GWAS_Case.control_AD.by.proxy <- read.delim("~/Documents/Projects/PRScalculator/data/Meta_GWAS_Case-control_AD-by-proxy.tsv")
+Meta_GWAS_Case.control_AD.by.proxy <- read.delim("./data/Meta_GWAS_Case-control_AD-by-proxy.tsv")
 View(Meta_GWAS_Case.control_AD.by.proxy)
 
-vcf <- read.vcfR("~/Documents/Projects/PRScalculator/data/MQ136ZHRM.mm2.sortdup.bqsr.hc.vcf.gz")
-
-Sumstats_SPIGAPUK2_20190625 <- read.delim("~/Documents/Projects/PRScalculator/data/Sumstats_SPIGAPUK2_20190625.txt")
+Sumstats_SPIGAPUK2_20190625 <- read.delim("./data/Sumstats_SPIGAPUK2_20190625.txt")
 
 # Getting all the variants for PRS calculation
 AD_VARIANTS <- c(Variants_Included_In_PRS$RS, "rs429358", "rs7412")  # APOE4 , APOE2
@@ -45,14 +50,6 @@ setdiff(Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene, Genetic_Landscape_of_AD
 Meta_GWAS_Case.control_AD.by.proxy <- mutate(Meta_GWAS_Case.control_AD.by.proxy, OR=substring(OR.95.CI.,1,4))
 Meta_GWAS_Case.control_AD.by.proxy <- mutate(Meta_GWAS_Case.control_AD.by.proxy, OR=as.numeric(str_replace(OR,',','.')))
 Meta_GWAS_Case.control_AD.by.proxy <- mutate(Meta_GWAS_Case.control_AD.by.proxy, betas=log(OR))
-
-
-
-# Calculating the PRS score
-
-# 1. For each variant in the PRS, check if it is present in the VCF file and get the allele count.
-# Need efficient way to fetch value from VCF file. The tbi file? Using Chromosomes to index..(recursive search!)
-# 2. Once I have the allele count, need to efficiently get the beta value from the whole GWAS table.
 
 
 
@@ -96,8 +93,9 @@ for (rs in AD_VARIANTS_IN_PATIENT){
 }
 
 
+# Exponentiating the PRS to get the odds of AD for this patient
 OR <- exp(PRS_AD)
-
+# Printing the result
 print(OR)
 
 
