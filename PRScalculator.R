@@ -12,13 +12,13 @@ vcf <- read.vcfR("<REPLACE PATH TO YOUR VCF FILE HERE>")
 
 # Loading the data --------------------------------------------------------
 Genetic_Landscape_of_AD <- read.delim("./data/Genetic_Landscape_of_AD.tsv")
-View(Genetic_Landscape_of_AD)
+#View(Genetic_Landscape_of_AD)
 
 Variants_Included_In_PRS <- read.delim("./data/Variants_Included_In_PRS.tsv")
-View(Variants_Included_In_PRS)
+#View(Variants_Included_In_PRS)
 
 Meta_GWAS_Case.control_AD.by.proxy <- read.delim("./data/Meta_GWAS_Case-control_AD-by-proxy.tsv")
-View(Meta_GWAS_Case.control_AD.by.proxy)
+#View(Meta_GWAS_Case.control_AD.by.proxy)
 
 Sumstats_SPIGAPUK2_20190625 <- read.delim("./data/Sumstats_SPIGAPUK2_20190625.txt")
 
