@@ -1,6 +1,6 @@
 
 # Loading the relevant packages
-pacman::p_load(pacman,dplyr,stringr, vcfR, BiocManager, Rsamtools, GenomicRanges, VariantAnnotation)
+pacman::p_load(pacman,dplyr,stringr, vcfR)
 
 
 # Loading the data --------------------------------------------------------
