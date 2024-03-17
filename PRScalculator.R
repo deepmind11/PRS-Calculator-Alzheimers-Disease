@@ -30,21 +30,21 @@ AD_VARIANTS <- c(Variants_Included_In_PRS$RS, "rs429358", "rs7412")  # APOE4 , A
 
 
 # Set Differences among RS values.
-setdiff(Genetic_Landscape_of_AD$RS, Variants_Included_In_PRS$RS)
-setdiff(Variants_Included_In_PRS$RS, Genetic_Landscape_of_AD$RS)
+#setdiff(Genetic_Landscape_of_AD$RS, Variants_Included_In_PRS$RS)
+#setdiff(Variants_Included_In_PRS$RS, Genetic_Landscape_of_AD$RS)
 
-setdiff(Genetic_Landscape_of_AD$RS, Meta_GWAS_Case.control_AD.by.proxy$Variant)
-setdiff(Meta_GWAS_Case.control_AD.by.proxy$Variant, Genetic_Landscape_of_AD$RS)
+#setdiff(Genetic_Landscape_of_AD$RS, Meta_GWAS_Case.control_AD.by.proxy$Variant)
+#setdiff(Meta_GWAS_Case.control_AD.by.proxy$Variant, Genetic_Landscape_of_AD$RS)
 
-setdiff(Meta_GWAS_Case.control_AD.by.proxy$Variant, Variants_Included_In_PRS$RS) # Strange
-setdiff(Variants_Included_In_PRS$RS, Meta_GWAS_Case.control_AD.by.proxy$Variant) # This is strange
+#setdiff(Meta_GWAS_Case.control_AD.by.proxy$Variant, Variants_Included_In_PRS$RS) # Strange
+#setdiff(Variants_Included_In_PRS$RS, Meta_GWAS_Case.control_AD.by.proxy$Variant) # This is strange
 
 # Set Differences among Genes.
-setdiff(Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene, Variants_Included_In_PRS$Gene)
-setdiff(Variants_Included_In_PRS$Gene, Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene)
+#setdiff(Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene, Variants_Included_In_PRS$Gene)
+#setdiff(Variants_Included_In_PRS$Gene, Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene)
 
-setdiff(Genetic_Landscape_of_AD$Closet.Gene, Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene)
-setdiff(Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene, Genetic_Landscape_of_AD$Closet.Gene)
+#setdiff(Genetic_Landscape_of_AD$Closet.Gene, Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene)
+#setdiff(Meta_GWAS_Case.control_AD.by.proxy$Nearest_Gene, Genetic_Landscape_of_AD$Closet.Gene)
 
 # Transfroming the Meta_Gwas DF 
 Meta_GWAS_Case.control_AD.by.proxy <- mutate(Meta_GWAS_Case.control_AD.by.proxy, OR=substring(OR.95.CI.,1,4))
@@ -86,7 +86,7 @@ PRS_AD <- 0
 for (rs in AD_VARIANTS_IN_PATIENT){
   
   beta <- Sumstats_SPIGAPUK2_20190625[Sumstats_SPIGAPUK2_20190625$RS == rs, 8]
-  print(beta)
+  #print(beta)
   PRS_AD <- PRS_AD + (as.integer(allele_count[AD_VARIANT_GENOTYPE[i]])*beta)
   i <- i + 1
   
